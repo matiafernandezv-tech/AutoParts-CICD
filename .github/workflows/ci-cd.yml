@@ -45,8 +45,8 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-            -Dsonar.organization=miorganizacion
-            -Dsonar.projectKey=miprojectkey
+            -Dsonar.organization=matiafernandezv-tech
+            -Dsonar.projectKey=matiafernandezv-tech_AutoParts-CICD
             -Dsonar.qualitygate.wait=true
 
   snyk:
